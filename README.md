@@ -27,9 +27,9 @@
     from tensorflow.python.keras.optimizer_v2 import adam
 ```
 * define the labels of all the categories
-
+```python
     classes=["have","none"]
-
+```
 * define a function called `read_image` to read the image data and normalize their sizes to the same style
 ```python
     def read_image(filename):
